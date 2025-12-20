@@ -8,7 +8,7 @@ for i in range(1, dias + 1): #Se define el numero de veces que se repetira el bl
     temperatura = float(input(f"Ingrese la temperatura del día {i}: ")) #Ingresar la temperatura para cada día
     suma_temperaturas += temperatura #Almacena la sumatoria de las temperaturas ingresadas
 
-promedio = suma_temperaturas / dias #Variable que almacena el promedio
+promedio = suma_temperaturas / dias #Variable que almacena el promedio1
 
 print("El promedio de temperatura de la semana es:", promedio) #Imprime el valor del promedio calculado
 

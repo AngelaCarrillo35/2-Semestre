@@ -1,0 +1,38 @@
+{
+    "123456789": {
+        "id": "123456789",
+        "nombre": "Laptop",
+        "cantidad": 5,
+        "precio": 600.0
+    },
+    "1738045970": {
+        "id": "1738045970",
+        "nombre": "Celular",
+        "cantidad": 9,
+        "precio": 10.0
+    },
+    "13579": {
+        "id": "13579",
+        "nombre": "Teclado",
+        "cantidad": 7,
+        "precio": 35.0
+    },
+    "24680": {
+        "id": "24680",
+        "nombre": "CPU",
+        "cantidad": 7,
+        "precio": 56.0
+    },
+    "1245780": {
+        "id": "1245780",
+        "nombre": "Mouse",
+        "cantidad": 5,
+        "precio": 12.0
+    },
+    "098765432": {
+        "id": "098765432",
+        "nombre": "Cargador",
+        "cantidad": 7,
+        "precio": 12.0
+    }
+}

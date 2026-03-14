@@ -2,18 +2,26 @@
 import tkinter as tk
 from tkinter import messagebox
 
+
 # Agregar información a la lista
 def agregar_dato():
     dato = entrada.get()  # Obtener texto del campo
     if dato != "":
         lista.insert(tk.END, dato)  # Agregar a la lista
-        entrada.delete(0, tk.END)   # Limpiar campo de texto
+        entrada.delete(0, tk.END)  # Limpiar campo de texto
     else:
         messagebox.showwarning("Advertencia", "Ingrese un dato")
 
+
 # Función para limpiar la lista
 def limpiar_lista():
-    lista.delete(0, tk.END)
+    seleccion = lista.curselection()  # verificar si hay algo seleccionado
+
+    if seleccion:  # si hay selección
+        lista.delete(seleccion)  # borrar solo lo seleccionado
+    else:
+        lista.delete(0, tk.END)  # borrar toda la lista
+
 
 # Ventana principal
 ventana = tk.Tk()
